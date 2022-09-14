@@ -89,11 +89,7 @@ pry(main)> dpl.authors
 pry(main)> charlotte_bronte = Author.new({first_name: "Charlotte", last_name: "Bronte"})
 #=> #<Author:0x00007fbeea2d78b8...>
 
-<<<<<<< HEAD
 pry(main)> jane_eyre = charlotte_bronte.write("Jane Eyre", "October 16, 1847")    
-=======
-pry(main)> charlotte_bronte.write("Jane Eyre", "October 16, 1847")
->>>>>>> e0b89d3232d0fe79e8ec68dd4bb18f25efbfacb6
 #=> #<Book:0x00007fbeeb3beca8...>
 
 pry(main)> professor = charlotte_bronte.write("The Professor", "1857")
