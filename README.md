@@ -114,11 +114,7 @@ pry(main)> dpl.authors
 pry(main)> dpl.books
 => [#<Book:0x00007fbeeb3beca8...>, #<Book:0x00007fbeea8efd90...>, #<Book:0x00007fbeea24fbe8...>, #<Book:0x00007fbeeb1089f0...>]
 
-pry(main)> dpl.publication_time_frame_for(charlotte_bronte)
-#=> {:start=>"1847", :end=>"1857"}
-
-pry(main)> dpl.publication_time_frame_for(harper_lee)
-#=> {:start=>"1960", :end=>"1960"}
+pry(main)> dpl
 ```
 
 ## Iteration 4
